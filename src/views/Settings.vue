@@ -1,0 +1,20 @@
+<template>
+ <v-container>
+   <v-card
+    dark
+    flat
+  >
+    <v-toolbar
+      flat
+      height="72"
+    >
+      <v-switch
+        v-model="$vuetify.theme.dark"
+        inset
+        label="Dark Theme"
+        hide-details
+      ></v-switch>
+    </v-toolbar>
+  </v-card>
+ </v-container>
+</template>
